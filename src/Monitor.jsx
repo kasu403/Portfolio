@@ -1,5 +1,11 @@
 function Monitor({children}) {
     return (
+        <div className="tvcompleta">
+            <div className="antenastv">
+                <div className="antenaesquerda"></div>
+                <div className="antenadireita"></div>
+                <div className="antenabase"></div>
+            </div>
         <div className="monitorestilo">
 
             <div className="telacontainer">
@@ -20,6 +26,7 @@ function Monitor({children}) {
                 </div>
             </div>
 
+        </div>
         </div>
     )
 }
