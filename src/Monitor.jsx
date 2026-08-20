@@ -12,7 +12,7 @@ function Monitor({children}) {
             <div className="painelcontrole">
                 <div className="botaodial"></div>
                 <div className="botaodial"></div>
-                <div className="ranhuras tv">
+                <div className="ranhuratv">
                     <span></span>
                     <span></span>
                     <span></span>

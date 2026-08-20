@@ -30,7 +30,56 @@ body {
   box-shadow: inset 3px 3px 6px #0e1214, inset -3px -3px 6px #3a454a;
 }
 
+.painelcontrole {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-top: 15px;
+  border-left: 2px solid #1c2124;
+  box-sizing: border-box;
+}
 
+.botaodial {
+  width: 32px;
+  height: 32px;
+  background-color: #1c2124;
+  border-radius: 50%;
+  border: 2px solid #3a454a;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  position: relative;
+}
+
+.botaodial::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 8px;
+  background-color: #7d8b92;
+  border-radius: 1px;
+}
+
+.ranhuratv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.ranhuratv span {
+  width: 100%;
+  height: 3px;
+  background-color: #14181a;
+  border-bottom: 1px solid #3a454a;
+}
 
 .televisao {
   display: flex;
