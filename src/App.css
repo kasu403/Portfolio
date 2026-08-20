@@ -102,54 +102,6 @@ body {
   overflow: hidden;
 }
 
-.windows {
-  width: 85%;
-  height: 80%;
-  background-color: #c0c0c0;
-  border: 2px solid;
-  border-color: #fff #808080 #808080 #fff;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
-
-}
-
-.barratitulo {
-  background-color: #000080;
-  color: white;
-  padding: 4px 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.botaoX {
-  background-color: #c0c0c0;
-  border: 1px solid;
-  border-color: #fff #808080 #808080 #fff ;
-  width: 16px;
-  height: 16px;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.janelaconteudo {
-  padding: 15px;
-  color: #000;
-  font-size: 14px;
-  line-height: 1.4;
-  overflow-y: auto;
-  background-color: #fff;
-  margin: 10px;
-  flex-grow: 1;
-  border: 2px solid;
-  border-color: #808080 #fff #fff #808080;
-}
 
 .scanlines {
   position: absolute;

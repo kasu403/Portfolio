@@ -1,14 +1,12 @@
 import './App.css'
 import Monitor from './Monitor'
 import PlayerVHS from './PlayerVHS'
-import JanelaJanela from './JanelaJanela'
 import FitaCassete from './FitaCassete'
 function App() {
     return (
        <div className='cenario'>
         <div className='televisao'>
            <Monitor>
-            <JanelaJanela/>
             </Monitor>
             <PlayerVHS>
             </PlayerVHS>
