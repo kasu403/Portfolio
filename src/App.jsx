@@ -97,7 +97,10 @@ function App() {
             )}
 
           </Monitor>
-            <PlayerVHS setFitaAtiva={setFitaAtiva}/>
+            <PlayerVHS   
+            setFitaAtiva={setFitaAtiva} 
+            tvLigada={tvLigada} 
+            setTvLigada={setTvLigada} />
         </div>
 
         </div>

@@ -1,4 +1,4 @@
-function Monitor({children}) {
+function Monitor({children, tvLigada, setTvLigada}) {
     return (
         <div className="tvcompleta">
             <div className="antenastv">

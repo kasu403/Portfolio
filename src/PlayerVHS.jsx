@@ -1,4 +1,4 @@
-function PlayerVHS() {
+function PlayerVHS({tvLigada, setTvLigada}) {
     return (
         <div className="vhsplayer">
             <div className="painel">
