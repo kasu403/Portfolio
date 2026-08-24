@@ -3,8 +3,8 @@ function PlayerVHS() {
         <div className="vhsplayer">
             <div className="painel">
                 <div className="energia">
-                    <div className="power"></div>
-                    <div className="ledstatus"></div>
+                    <div className="power" onClick={() => setTvLigada(!tvLigada)}></div>
+                    <div className={`ledstatus ${tvLigada ? 'aceso' : 'apagado'}`}></div>
                 </div>
                 <div className="entradafita">
                     <div className="portinhafita"></div>
