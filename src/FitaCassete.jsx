@@ -1,6 +1,7 @@
-function FitaCassete({ titulo, cor }) {
+function FitaCassete({ titulo, cor, inclinacao }) {
   return (
-    <div className="lombadavhs">
+    <div className="lombadavhs"
+    style={{transform: `rotate(${inclinacao}deg)`}}>
       <div className="etiquetalombada" style={{ borderLeft: `8px solid ${cor}` }}>
         <span className="textolombada">{titulo}</span>
       </div>
