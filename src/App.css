@@ -361,6 +361,73 @@ body {
   align-items: flex-start;
   text-shadow: 0 0 5px #33ff33;
   z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.telapretatotal {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.avisoinserir {
+  position: absolute;
+  white-space: nowrap; 
+  text-align: center;
+  margin: auto;
+  animation: 
+    horizontal 11s linear infinite alternate,
+    vertical 7s linear infinite alternate,
+    piscarTexto 2s infinite steps(1);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(5, 90, 5);
+}
+
+@keyframes piscarTexto {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.3;}
+}
+
+@keyframes horizontal {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: calc(100% - 220px);
+  }
+}
+
+@keyframes vertical {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: calc(100% - 70px);
+  }
+}
+
+.animacaocrtligar {
+  width: 95%;
+  height: 90%;
+  animation: feixeluz 0.8s ease-out forwards;
+}
+
+@keyframes feixeluz {
+  0% {
+    transform: scaleY(0.005) scaleX(0);
+    background-color: #3a3838;
+    filter: brightness(5);
+  }
+  50% {
+    transform: scaleY(0.005) scaleX(1);
+    background-color: #706e6e;
+    filter: brightness(3);
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+    filter: brightness(1);
+  }
 }
 
 /* @media (max-width: 800px) {

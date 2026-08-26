@@ -45,8 +45,8 @@ function App() {
             ) : fitaAtiva === 'desligado' ? (
               <div className="conteudovhstela animacaocrtligar">
                 <div className="avisoinserir">
-                  <h2>NO SIGNAL</h2>
-                  <p>POR FAVOR, INSIRA UMA FITA...</p>
+                  <h2>SEM SINAL</h2>
+                  <p>POR FAVOR, INSIRA UMA FITA!!</p>
                 </div>
               </div>
             ) : (
