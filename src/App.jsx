@@ -43,14 +43,14 @@ function App() {
             {!tvLigada ? (
               <div className="telapretatotal"></div>
             ) : fitaAtiva === 'desligado' ? (
-              <div className="conteudovhstela animacaocrtligar">
+              <div className=" animacaocrtligar conteudovhstela">
                 <div className="avisoinserir">
                   <h2>SEM SINAL</h2>
                   <p>POR FAVOR, INSIRA UMA FITA!!</p>
                 </div>
               </div>
             ) : (
-              <div className="conteudovhstela animacaocrtligar">
+              <div className="animacaocrtligar conteudovhstela " key={fitaAtiva}>
                 {fitaAtiva === 'sobre' && (
                   <>
                     <h2>PLAY // PROG_01</h2>
